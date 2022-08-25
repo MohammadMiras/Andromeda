@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "Share": [
+        "Components/Share/Exports"
+      ]
+    }
+  }
+}
