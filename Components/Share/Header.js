@@ -13,8 +13,8 @@ const Header = () => {
                 <Image src="/images/logo.png" layout='fill' className='absolute object-contain' />
             </div>
             <div>
-                <SearchIcon  className='ml-2'/>
-                <PersonIcon />
+                <SearchIcon  className='hover:text-Template-color3 ml-2'/>
+                <PersonIcon  className='hover:text-Template-color3 '/>
             </div>
         </div>
     </>

@@ -15,7 +15,10 @@ module.exports = {
     extend: {
       colors: {
          Template: {
-          color1:'#141414',         
+          color1:'#141414',
+          color2:'#202020',
+          color3:'#dfdf19',
+          color4:'#afacac'     
           
         }
       }
