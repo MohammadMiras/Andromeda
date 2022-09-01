@@ -4,6 +4,12 @@
     "paths": {
       "Share": [
         "Components/Share/Exports"
+      ],
+      "Index": [
+        "Components/Index/Exports"
+      ],
+      "Base-Ui":[
+        "Base/Ui/Exports"
       ]
     }
   }
