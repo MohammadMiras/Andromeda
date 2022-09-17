@@ -55,7 +55,6 @@ const ResponsNav = () => {
                         {text}
                     </div>
                 </div>
-
             ))}
 
         </Box>
