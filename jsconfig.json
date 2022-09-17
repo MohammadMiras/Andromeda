@@ -8,7 +8,7 @@
       "Index": [
         "Components/Index/Exports"
       ],
-      "Base-Ui":[
+      "Base":[
         "Base/Ui/Exports"
       ]
     }

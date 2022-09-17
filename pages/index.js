@@ -3,6 +3,7 @@ import {
   Hero,
   Recent,
   Specials,
+  SuperiorMovies
 } from 'Index'
 
 export default function Home() {
@@ -12,6 +13,6 @@ export default function Home() {
     <Recent />
     <Categoy />
     <Specials />
-
+    <SuperiorMovies/>
   </>
 }

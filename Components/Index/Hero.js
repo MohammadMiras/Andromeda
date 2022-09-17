@@ -15,8 +15,7 @@ const Hero = () => {
                 effect={"coverflow"}
                 slidesPerView={3}
                 grabCursor={true}
-                centeredSlides={true}
-
+                centeredSlides={false}
                 coverflowEffect={{
                     rotate: 50,
                     stretch: 0,
