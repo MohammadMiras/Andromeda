@@ -18,7 +18,7 @@ const Hero = () => {
                 centeredSlides={false}
                 coverflowEffect={{
                     rotate: 50,
-                    stretch: 0,
+                    stretch:20,
                     depth: 50,
                     modifier: 1,
                     slideShadows: true,
@@ -30,7 +30,7 @@ const Hero = () => {
                 {
                     heroSlide?.map(item => <>
                         <SwiperSlide>
-                            <div className="w-44 h-44 relative m-auto overflow-hidden rounded-sm shadow-2xl">
+                            <div className="h-44 w-full  relative overflow-hidden rounded-sm shadow-2xl">
                                 <Image src={`/images/${item}.jpg`} layout="fill" className="object-cover" />
                             </div>
                         </SwiperSlide>
