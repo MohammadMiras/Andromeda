@@ -32,7 +32,7 @@ const Categoy = () => {
                     {
                         items?.map(item => <>
                             <SwiperSlide>
-                                <div className="text-xs px-4 py-2 font-iransans text-center                            font-bold border-[1px]  border-Template-color3 rounded-lg text-white hover:bg-Template-color3 hover:text-black
+                                <div className="text-xs px-4 py-2 font-iransans text-center                     font-bold border-[1px]  border-Template-color3 rounded-lg text-white hover:bg-Template-color3 hover:text-black
                                 hover:font-normal">
                                     دسته بندی
                                 </div>

@@ -4,6 +4,7 @@ import {
   Recent,
   Specials,
   SuperiorMovies,
+  Posts
 } from 'Index'
 
 export default function Home() {
@@ -14,5 +15,6 @@ export default function Home() {
     <Categoy />
     <Specials />
     <SuperiorMovies />
+    <Posts/>
   </>
 }
