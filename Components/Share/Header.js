@@ -20,9 +20,8 @@ const Header = () => {
                  src="/images/logo.png"
                  layout='fill'
                  className='absolute object-contain'
-                 continer="relative h-12 w-12 z-10"
-                 alt="test" />
-           
+                 container="relative h-12 w-12 z-10"
+                 alt="test" />        
             
             <div>
                 <SearchIcon className='hover:text-Template-color3 ml-2' />
@@ -33,7 +32,6 @@ const Header = () => {
             anchor={"right"}
             open={isShow}
             onClose={()=>setIsShow(!isShow)}
-
         >
          <ResponsNav/>
         </Drawer>
