@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import ResponsNav from './ResponsNav';
 import Drawer from '@mui/material/Drawer';
+import ImageBase from 'Base/Ui/ImageBase';
 const Header = () => {
 
     const [isShow ,setIsShow] = useState(false)
@@ -14,9 +15,15 @@ const Header = () => {
             <div onClick={() => setIsShow(!isShow)} >
                 <MenuIcon  />
             </div>
-            <div className='relative h-12 w-12 z-10'>
-                <Image src="/images/logo.png" layout='fill' className='absolute object-contain' />
-            </div>
+          
+                <ImageBase
+                 src="/images/logo.png"
+                 layout='fill'
+                 className='absolute object-contain'
+                 continer="relative h-12 w-12 z-10"
+                 alt="test" />
+           
+            
             <div>
                 <SearchIcon className='hover:text-Template-color3 ml-2' />
                 <PersonIcon className='hover:text-Template-color3 ' />
