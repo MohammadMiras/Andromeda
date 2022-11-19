@@ -3,9 +3,9 @@ import Image from 'next/image';
 const ImageBase = (prop) => {
     const { continer } = prop
     prop = { ...prop }
-    delete prop["continer"];
+    delete prop["container"];
     return <>
-        <div className={continer ?? ""}>
+        <div className={container ?? ""}>
             <Image  {...prop} />
         </div>
     </>
