@@ -9,7 +9,7 @@
         "Components/Index/Exports"
       ],
       "Base":[
-        "Base/Ui/Exports"
+        "Base/Exports"
       ]
     }
   }

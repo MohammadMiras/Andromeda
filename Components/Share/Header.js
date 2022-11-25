@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import ResponsNav from './ResponsNav';
 import Drawer from '@mui/material/Drawer';
-import ImageBase from 'Base/Ui/ImageBase';
+import ImageBase from 'Base/ImageBase';
 const Header = () => {
 
     const [isShow ,setIsShow] = useState(false)

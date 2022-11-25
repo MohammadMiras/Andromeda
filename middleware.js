@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
-export async function middleware(req) {
 
+export async function middleware(req) {
 
   const { pathname, origin } = req.nextUrl
 
@@ -18,14 +18,9 @@ export async function middleware(req) {
 
   return NextResponse.next("/")
 }
+//
 export const config = {
-    matcher: [
-      /*
-       * Match all request paths except for the ones starting with:
-       * - api (API routes)
-       * - _next/static (static files)
-       * - favicon.ico (favicon file)
-       */
+    matcher: [   
       '/((?!api|_next/static|_next/image|images|favicon.ico).*)',
     ],
   }
